@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap');
+
+body{
+  font-family: Alegreya Sans;
+  background-color: #FFF8EA;
+  font-size: 20px;
+  line-height: 10px;
+  color: #815B5B;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.text-align{
+  text-align: center;
+}
+
+.img-circle{
+  border-radius: 50em;
+}
+
+.card-white{
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  line-height: 30px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 5px 5px 20px lightgrey;
+}
+.image_size{
+  width: 10em;
+  height: 10em;
+}
+
+h1,h2{
+  font-family: Roboto;
+  color: #594545;
+}
+
+h1{
+  font-size: 30px;
+  line-height: 40px;
+}
+
+h2{
+  font-size: 20px;
+}
+
+.list-inline{
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.list-inline > li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+i {
+  background-color: #fff3b0;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 40px;
+}
+
+a {
+  color: #9E2A2B;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D90429;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
